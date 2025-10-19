@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		23FEDF0D2EA4FFF2009A404B /* AbdelrahmanAraby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDF0B2EA4FFF2009A404B /* AbdelrahmanAraby.swift */; };
 		23FEDF0E2EA4FFF2009A404B /* AbdelrahmanAraby.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FEDF0C2EA4FFF2009A404B /* AbdelrahmanAraby.xib */; };
+		23FEDF112EA50241009A404B /* test2Araby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FEDF0F2EA50241009A404B /* test2Araby.swift */; };
+		23FEDF122EA50241009A404B /* test2Araby.xib in Resources */ = {isa = PBXBuildFile; fileRef = 23FEDF102EA50241009A404B /* test2Araby.xib */; };
 		4F64C2792EA4FCFB0096BF8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64C2782EA4FCFB0096BF8F /* AppDelegate.swift */; };
 		4F64C27B2EA4FCFB0096BF8F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64C27A2EA4FCFB0096BF8F /* SceneDelegate.swift */; };
 		4F64C27D2EA4FCFB0096BF8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64C27C2EA4FCFB0096BF8F /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* Begin PBXFileReference section */
 		23FEDF0B2EA4FFF2009A404B /* AbdelrahmanAraby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdelrahmanAraby.swift; sourceTree = "<group>"; };
 		23FEDF0C2EA4FFF2009A404B /* AbdelrahmanAraby.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AbdelrahmanAraby.xib; sourceTree = "<group>"; };
+		23FEDF0F2EA50241009A404B /* test2Araby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2Araby.swift; sourceTree = "<group>"; };
+		23FEDF102EA50241009A404B /* test2Araby.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = test2Araby.xib; sourceTree = "<group>"; };
 		4F64C2752EA4FCFB0096BF8F /* testFinalProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testFinalProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F64C2782EA4FCFB0096BF8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F64C27A2EA4FCFB0096BF8F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -50,6 +54,8 @@
 			children = (
 				23FEDF0B2EA4FFF2009A404B /* AbdelrahmanAraby.swift */,
 				23FEDF0C2EA4FFF2009A404B /* AbdelrahmanAraby.xib */,
+				23FEDF0F2EA50241009A404B /* test2Araby.swift */,
+				23FEDF102EA50241009A404B /* test2Araby.xib */,
 			);
 			path = Araby;
 			sourceTree = "<group>";
@@ -155,6 +161,7 @@
 			files = (
 				4F64C2852EA4FD010096BF8F /* LaunchScreen.storyboard in Resources */,
 				23FEDF0E2EA4FFF2009A404B /* AbdelrahmanAraby.xib in Resources */,
+				23FEDF122EA50241009A404B /* test2Araby.xib in Resources */,
 				4F64C2822EA4FD010096BF8F /* Assets.xcassets in Resources */,
 				4F64C28F2EA4FD640096BF8F /* AdhamNibViewController.xib in Resources */,
 				4F64C2802EA4FCFB0096BF8F /* Main.storyboard in Resources */,
@@ -168,6 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23FEDF112EA50241009A404B /* test2Araby.swift in Sources */,
 				4F64C27D2EA4FCFB0096BF8F /* ViewController.swift in Sources */,
 				4F64C2792EA4FCFB0096BF8F /* AppDelegate.swift in Sources */,
 				4F64C28E2EA4FD640096BF8F /* AdhamNibViewController.swift in Sources */,
