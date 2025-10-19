@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -41,6 +41,10 @@
 		4F64C28C2EA4FD640096BF8F /* AdhamNibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhamNibViewController.swift; sourceTree = "<group>"; };
 		4F64C28D2EA4FD640096BF8F /* AdhamNibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdhamNibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2D17607E2EA521C3006CD821 /* Ahmed */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Ahmed; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		4F64C2722EA4FCFB0096BF8F /* Frameworks */ = {
@@ -83,6 +87,7 @@
 		4F64C2772EA4FCFB0096BF8F /* testFinalProject */ = {
 			isa = PBXGroup;
 			children = (
+				2D17607E2EA521C3006CD821 /* Ahmed */,
 				23FEDF0A2EA4FFCF009A404B /* Araby */,
 				4F64C2782EA4FCFB0096BF8F /* AppDelegate.swift */,
 				4F64C27A2EA4FCFB0096BF8F /* SceneDelegate.swift */,
@@ -121,6 +126,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2D17607E2EA521C3006CD821 /* Ahmed */,
 			);
 			name = testFinalProject;
 			productName = testFinalProject;
