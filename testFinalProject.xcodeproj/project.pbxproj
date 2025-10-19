@@ -13,6 +13,8 @@
 		4F64C2802EA4FCFB0096BF8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F64C27E2EA4FCFB0096BF8F /* Main.storyboard */; };
 		4F64C2822EA4FD010096BF8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F64C2812EA4FD010096BF8F /* Assets.xcassets */; };
 		4F64C2852EA4FD010096BF8F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F64C2832EA4FD010096BF8F /* LaunchScreen.storyboard */; };
+		4F64C28E2EA4FD640096BF8F /* AdhamNibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F64C28C2EA4FD640096BF8F /* AdhamNibViewController.swift */; };
+		4F64C28F2EA4FD640096BF8F /* AdhamNibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4F64C28D2EA4FD640096BF8F /* AdhamNibViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4F64C2812EA4FD010096BF8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F64C2842EA4FD010096BF8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F64C2862EA4FD010096BF8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F64C28C2EA4FD640096BF8F /* AdhamNibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdhamNibViewController.swift; sourceTree = "<group>"; };
+		4F64C28D2EA4FD640096BF8F /* AdhamNibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdhamNibViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +67,18 @@
 				4F64C2812EA4FD010096BF8F /* Assets.xcassets */,
 				4F64C2832EA4FD010096BF8F /* LaunchScreen.storyboard */,
 				4F64C2862EA4FD010096BF8F /* Info.plist */,
+				4F64C2902EA4FD840096BF8F /* Adham */,
 			);
 			path = testFinalProject;
+			sourceTree = "<group>";
+		};
+		4F64C2902EA4FD840096BF8F /* Adham */ = {
+			isa = PBXGroup;
+			children = (
+				4F64C28C2EA4FD640096BF8F /* AdhamNibViewController.swift */,
+				4F64C28D2EA4FD640096BF8F /* AdhamNibViewController.xib */,
+			);
+			path = Adham;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +141,7 @@
 			files = (
 				4F64C2852EA4FD010096BF8F /* LaunchScreen.storyboard in Resources */,
 				4F64C2822EA4FD010096BF8F /* Assets.xcassets in Resources */,
+				4F64C28F2EA4FD640096BF8F /* AdhamNibViewController.xib in Resources */,
 				4F64C2802EA4FCFB0096BF8F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,6 +155,7 @@
 			files = (
 				4F64C27D2EA4FCFB0096BF8F /* ViewController.swift in Sources */,
 				4F64C2792EA4FCFB0096BF8F /* AppDelegate.swift in Sources */,
+				4F64C28E2EA4FD640096BF8F /* AdhamNibViewController.swift in Sources */,
 				4F64C27B2EA4FCFB0096BF8F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
